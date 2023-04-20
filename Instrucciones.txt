@@ -1,0 +1,14 @@
+* pip install virtualenv
+* python -m venv venv
+* venv\Scripts\activate
+* pip install django
+* django-admin startproject django_crud_api .
+* python manage.py runserver
+* python manage.py startapp tasks
+* python manage.py migrate
+* pip install djangorestframework
+* pip install django-cors-headers
+            https://pypi.org/project/django-cors-headers/#description
+            *** 'corsheaders.middleware.CorsMiddleware',
+* python manage.py makemigrations
+* python manage.py createsuperuser
