@@ -12,3 +12,8 @@
             *** 'corsheaders.middleware.CorsMiddleware',
 * python manage.py makemigrations
 * python manage.py createsuperuser
+* pip install coreapi
+* https://www.django-rest-framework.org/coreapi/
+            REST_FRAMEWORK = { 
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+}
