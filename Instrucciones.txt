@@ -17,3 +17,12 @@
             REST_FRAMEWORK = { 
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
+
+* npm create vite
+      cd client
+  npm install
+  npm run dev
+* npm i react-router-dom
+* npm i react-hot-toast 
+* npm i axios 
+* npm i react-hook-form 
