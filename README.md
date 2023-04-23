@@ -1,2 +1,7 @@
-# Django-REST-Framework-y-React-CRUD
-Una aplicacion web fullstack usando Django y Django REST Framework desde el backend y React como Framework frontend de Javascript 
+# Django React CRUD
+
+This is a simple Django React CRUD application.
+
+# Environment variables
+
+- VITE_BACKEND_URL, this is neccessary in production, it should be the url of the backend server
